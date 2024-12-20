@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Management</title>
+    <link rel="stylesheet" href="113306034_Lab5.css">
+</head>
+<body>
+    <h1>113306034_Lab5</h1>
+
+    <div class="form-container">
+        <input type="number" id="mathGrade" placeholder="Math" min="0" max="100" required>
+        <input type="number" id="englishGrade" placeholder="English" min="0" max="100" required>
+        <button id="submitBtn">Submit</button>
+    </div>
+
+    <table id="gradesTable">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Math</th>
+                <th>English</th>
+                <th>Average</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Average</td>
+                <td id="mathAvg">0.00</td>
+                <td id="englishAvg">0.00</td>
+                <td id="overallAvg">0.00</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <script src="113306034_Lab5.js"></script>
+</body>
+</html>
